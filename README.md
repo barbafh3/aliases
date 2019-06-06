@@ -38,12 +38,20 @@ The base files are layed out as follows:
     vrc               ~/.vimrc
     ls                ls                      -al
 
-The aliases are generated as follows (fish shell used as example):  
+The aliases are generated as follows:
 
-    Folder - uses cd command. E.g. abbr <alias> 'cd <folder>'  
-    Config - uses vim. E.g. abbr <alias> 'vim <file>'  
-    Command - uses specified command. E.g. abbr <alias> '<command> <arguments>'  
+- Fish:
 
+      abbr dbx 'cd ~/Dropbox'
+      abbr vrc 'vim ~/.vimrc
+      abbr ls 'ls -al'
+     
+- Zsh
+    
+      alias dbx='cd ~/Dropbox'
+      alias vrc='vim ~/.vimrc'
+      aliase ls='ls -al'
+  
 Alias/Abbreviation files are the following:  
 
     $HOME/.config/zsh/aliases  
