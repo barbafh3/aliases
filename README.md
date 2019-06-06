@@ -12,8 +12,8 @@ After that just add the script to your PATH.
 
 ## Usage
 
-aliases [-h][-g][--fish][--zsh][-e <type>] -- generates aliases for zsh and fish
-usage:    aliases [arguments]
+aliases [-h][-g][--fish][--zsh][-e <type>] -- generates aliases for zsh and fish \n
+usage:    aliases [arguments]\n
    or:    aliases [arguments] [type]
 Arguments:
     -h or --help        Prints help instructions
