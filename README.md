@@ -50,7 +50,7 @@ The aliases are generated as follows:
     
       alias dbx='cd ~/Dropbox'
       alias vrc='vim ~/.vimrc'
-      aliase ls='ls -al'
+      alias ls='ls -al'
   
 Alias/Abbreviation files are the following:  
 
