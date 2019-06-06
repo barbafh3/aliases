@@ -29,16 +29,19 @@ This script uses four base-files: folder-base for folder aliases,
 config-base for config editing aliases and command-base for custom command  
 aliases. All files should be located in the same folder as the script file.  
 
-The base files are layed out as follows:  
-Desired alias&ensp;&ensp;&ensp;&ensp;folder/file/command&ensp;&ensp;&ensp;&ensp;argument (in case of command base)  
+The base files are layed out as follows:
+
+    Desired alias&ensp;&ensp;&ensp;&ensp;folder/file/command&ensp;&ensp;&ensp;&ensp;argument (in case of command base)  
 
 The aliases are generated as follows (fish shell used as example):  
-Folder - uses cd command. E.g. abbr <alias> 'cd <folder>'  
-Config - uses vim. E.g. abbr <alias> 'vim <file>'  
-Command - uses specified command. E.g. abbr <alias> '<command> <arguments>'  
+
+    Folder - uses cd command. E.g. abbr <alias> 'cd <folder>'  
+    Config - uses vim. E.g. abbr <alias> 'vim <file>'  
+    Command - uses specified command. E.g. abbr <alias> '<command> <arguments>'  
 
 Alias/Abbreviation files are the following:  
-$HOME/.config/zsh/aliases  
-$HOME/.config/fish/abbreviations  
+
+    $HOME/.config/zsh/aliases  
+    $HOME/.config/fish/abbreviations  
 
 Each file is included in their respective shell config file, zshrc or config.fish  
