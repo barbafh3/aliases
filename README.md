@@ -57,4 +57,4 @@ Alias/Abbreviation files are the following:
     $HOME/.config/zsh/aliases  
     $HOME/.config/fish/abbreviations  
 
-Each file is included in their respective shell config file, zshrc or config.fish  
+Each file must be included in their respective shell config file, zshrc or config.fish  
