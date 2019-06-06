@@ -33,6 +33,10 @@ aliases. All files should be located in the same folder as the script file.
 The base files are layed out as follows:
 
     Desired alias     folder/file/command     argument (in case of command base)  
+    
+    dbx               ~/Dropbox
+    vrc               ~/.vimrc
+    ls                ls                      -al
 
 The aliases are generated as follows (fish shell used as example):  
 
