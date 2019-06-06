@@ -46,7 +46,7 @@ The aliases are generated as follows:
       abbr vrc 'vim ~/.vimrc
       abbr ls 'ls -al'
      
-- Zsh
+- Zsh:
     
       alias dbx='cd ~/Dropbox'
       alias vrc='vim ~/.vimrc'

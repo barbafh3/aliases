@@ -39,19 +39,33 @@ Arguments:
                         or command 
 
 This script uses four base-files: folder-base for folder aliases, 
-config-base for config editing aliases, command-base for custom command
-aliases and log-base for log based command aliases. All files should be 
+config-base for config editing aliases and command-base for custom command
+aliases. All files should be 
 located in the same folder as this script file.
 
 The base files are layed out as follows:
-Desired alias      folder/file/command       argument (in case of command base)
 
-The aliases are generated as follows (fish shell used as example):
-Folder - uses cd command. E.g. abbr <alias> 'cd <folder>'
-Config - uses vim. E.g. abbr <alias> 'vim <file>'
-Command - uses specified command. E.g. abbr <alias> '<command> <arguments>'
+Desired alias      folder/file/command       argument (in case of command base)
+dbx                ~/Dropbox
+vrc                ~/.vimrc
+ls                 ls                        -al
+
+The aliases are generated as follows:
+
+Fish:
+
+    abbr dbx 'cd ~/Dropbox'
+    abbr vrc 'vim ~/.vimrc
+    abbr ls 'ls -al'
+
+Zsh:
+
+    alias dbx='cd ~/Dropbox'
+    alias vrc='vim ~/.vimrc'
+    alias ls='ls -al'
 
 Alias/Abbreviation files are the following:
+
 $HOME/.config/zsh/aliases
 $HOME/.config/fish/abbreviations
 
