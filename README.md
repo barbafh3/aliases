@@ -19,11 +19,11 @@ usage:&ensp;&ensp;&ensp;&ensp;aliases [arguments]
 Arguments:  
 &ensp;&ensp;&ensp;&ensp;-h or --help&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Prints help instructions  
 &ensp;&ensp;&ensp;&ensp;-g or --generate&ensp;&ensp;&ensp;&ensp;Generates aliases for both zsh and fish  
-&ensp;&ensp;&ensp;&ensp;--fish&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Generates abbreviations for fish only  
-&ensp;&ensp;&ensp;&ensp;--zsh&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Generates aliases for zsh only  
-&ensp;&ensp;&ensp;&ensp;-e or --edit [type] Edits the specified alias base-file  
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;based on its type: folder, config  
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;or command  
+&ensp;&ensp;&ensp;&ensp;--fish&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Generates abbreviations for fish only  
+&ensp;&ensp;&ensp;&ensp;--zsh&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Generates aliases for zsh only  
+&ensp;&ensp;&ensp;&ensp;-e or --edit [type]&ensp;&ensp;&ensp;&ensp;Edits the specified alias base-file  
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;based on its type: folder, config  
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;or command  
                         
 This script uses four base-files: folder-base for folder aliases,  
 config-base for config editing aliases and command-base for custom command  
