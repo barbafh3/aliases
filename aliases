@@ -104,7 +104,7 @@ add_fish_or_zsh_alias(){
     sed "s/\s*#.*$//;/^\s*$/d" $folder_file | awk -v c=$cmd -v o="$comp" '{ print c" "$1""o"\"cd "$2"\"" }' >> $file
 
     echo -e "\n# Config files aliases\n" >> $file
-    sed "s/\s*#.*$//;/^\s*$/d" $config_file | awk -v c=$cmd -v o="$comp" '{ print c" "$1""o"\"vim "$2"\"" }' >> $file
+    sed "s/\s*#.*$//;/^\s*$/d" $config_file | awk -v c=$cmd -v o="$comp" '{ print c" "$1""o"\"nvim "$2"\"" }' >> $file
 
     echo -e "\n# Command aliases\n" >> $file
     sed "s/\s*#.*$//;/^\s*$/d" $command_file | awk -v c=$cmd -v o="$comp" '{
